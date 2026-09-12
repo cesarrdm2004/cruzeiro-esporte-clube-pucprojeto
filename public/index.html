@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cruzeiro Esporte Clube</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
@@ -34,13 +35,41 @@
   <main>
     
     <section id="inicio" class="destaque">
-      <div class="texto-destaque">
-        <h2>Cruzeiro Esporte Clube</h2>
-        <p>Tradição, paixão e um povo que nunca desiste</p>
-        <a href="#historia" class="botao">Conheça a história</a>
+      <div class="slide ativo">
+        <img src="https://picsum.photos/id/1011/1200/400" alt="Imagem de destaque do Cruzeiro">
+        <div class="texto-destaque">
+          <h2>Cruzeiro Esporte Clube</h2>
+          <p>Tradição, paixão e um povo que nunca desiste</p>
+          <a href="#historia" class="botao">Conheça a história</a>
+        </div>
       </div>
 
-      <img src="https://picsum.photos/id/1011/1200/400" alt="Imagem de destaque do Cruzeiro">
+      <div class="slide">
+        <img src="https://picsum.photos/id/1040/1200/400" alt="Imagem representando o estádio do Cruzeiro">
+        <div class="texto-destaque">
+          <h2>Uma história de conquistas</h2>
+          <p>Grandes títulos fazem parte da história celeste</p>
+          <a href="#titulos" class="botao">Ver títulos</a>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="https://picsum.photos/id/1050/1200/400" alt="Imagem representando a torcida">
+        <div class="texto-destaque">
+          <h2>Uma torcida apaixonada</h2>
+          <p>O Cruzeiro é gigante pela própria natureza</p>
+          <a href="#elenco" class="botao">Conheça o elenco</a>
+        </div>
+      </div>
+
+      <button class="seta esquerda" type="button" aria-label="Slide anterior">&#10094;</button>
+      <button class="seta direita" type="button" aria-label="Próximo slide">&#10095;</button>
+      
+      <div class="indicadores">
+        <span class="indicador ativo"></span>
+        <span class="indicador"></span>
+        <span class="indicador"></span>
+      </div>
     </section>
 
     <section id="historia" class="sobre">

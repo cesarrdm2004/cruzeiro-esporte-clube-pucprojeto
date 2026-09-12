@@ -13,12 +13,19 @@ Esse projeto apresenta uma página sobre o Cruzeiro Esporte Clube, montada para 
 
 ## Imagem do esboço (Wireframe) criado para o projeto
 
-![wireframe do projeto](Wireframe-Cruzeiro-ProjetoPUC.png)
+![wireframe do projeto](public/prints/Wireframe-Cruzeiro-ProjetoPUC.png)
 
 
-## Print da home-page criada para o projeto
+## Print da home-page criada para o projeto - Desktop
 
-![print1](image.png)
-![print2](image-1.png)
-![print3](image-2.png)
+![print1](public/prints/image.png)
+![print2](public/prints/image-1.png)
+![print3](public/prints/image-2.png)
 
+## Print da home-page criada para o projeto - Mobile
+
+![print1 mobile](public/prints/mobileprint1.png)
+![print2 mobile](public/prints/mobileprint2.png)
+![print3 mobile](public/prints/mobileprint3.png)
+![print4 mobile](public/prints/mobileprint4.png)
+![print5 mobile](public/prints/mobileprint5.png)

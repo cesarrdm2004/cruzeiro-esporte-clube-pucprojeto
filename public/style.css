@@ -145,8 +145,9 @@ img {
 }
 
 .texto-destaque h2 {
-  font-size: 42px;
+  font-size: 38px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .texto-destaque p {

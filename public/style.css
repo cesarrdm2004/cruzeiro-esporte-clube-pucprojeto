@@ -267,12 +267,6 @@ main section > h2 {
   text-transform: uppercase;
 }
 
-.lista-jogadores {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-}
-
 .jogador {
   background-color: #ffffff;
   padding: 12px;
@@ -440,10 +434,6 @@ main section > h2 {
     justify-content: center;
   }
 
-  .lista-jogadores {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .lista-titulos {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -490,10 +480,6 @@ main section > h2 {
 
   .sobre, .contato {
     flex-direction: column;
-  }
-
-  .lista-jogadores {
-    grid-template-columns: 1fr;
   }
 
   .lista-titulos {

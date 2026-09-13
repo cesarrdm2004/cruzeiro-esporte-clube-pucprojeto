@@ -29,3 +29,19 @@ Esse projeto apresenta uma página sobre o Cruzeiro Esporte Clube, montada para 
 ![print3 mobile](public/prints/mobileprint3.png)
 ![print4 mobile](public/prints/mobileprint4.png)
 ![print5 mobile](public/prints/mobileprint5.png)
+
+## Print da home-page com Bootstrap - Desktop
+
+![print1 desktop bootstrap](public/prints/print1desktopbootstrap.png)
+![print2 desktop bootstrap](public/prints/print2desktopbootstrap.png)
+![print3 desktop bootstrap](public/prints/print3desktopbootstrap.png)
+
+## Print da home-page com Bootstrap - Mobile
+
+![print1 mobile bootstrap](public/prints/print1mobilebootstrap.png)
+![print2 mobile bootstrap](public/prints/print2mobilebootstrap.png)
+![print3 mobile bootstrap](public/prints/print3mobilebootstrap.png)
+![print4 mobile bootstrap](public/prints/print4mobilebootstrap.png)
+![print5 mobile bootstrap](public/prints/print5mobilebootstrap.png)
+![print6 mobile bootstrap](public/prints/print6mobilebootstrap.png)
+

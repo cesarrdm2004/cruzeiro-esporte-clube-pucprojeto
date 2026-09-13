@@ -24,10 +24,6 @@ img {
 .cabecalho {
   background-color: #ffffff;
   padding: 20px 5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 25px;
   position: relative;
   border-bottom: 4px solid #1d4ed8;
 }
@@ -214,15 +210,7 @@ main section > h2 {
 }
 
 .sobre {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
   background-color: #ffffff;
-}
-
-.texto-sobre {
-  flex: 1;
 }
 
 .texto-sobre h2 {
@@ -235,7 +223,6 @@ main section > h2 {
 }
 
 .imagem-sobre {
-  flex: 1;
   text-align: center;
 }
 
@@ -296,12 +283,6 @@ main section > h2 {
   background-color: #ffffff;
 }
 
-.lista-titulos {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 15px;
-}
-
 .titulo {
   padding: 15px;
   border: 2px solid #dbeafe;
@@ -322,13 +303,7 @@ main section > h2 {
 }
 
 .contato {
-  display: flex;
-  gap: 50px;
   background-color: #eaf1ff;
-}
-
-.texto-contato {
-  flex: 1;
 }
 
 .texto-contato h2 {
@@ -341,13 +316,7 @@ main section > h2 {
   color: #475569;
 }
 
-.formulario-contato {
-  flex: 2;
-}
-
 .campos {
-  display: flex;
-  gap: 15px;
   margin-bottom: 15px;
 }
 
@@ -384,10 +353,6 @@ main section > h2 {
   background-color: #172554;
   color: #ffffff;
   padding: 36px 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
 }
 
 .rodape h2 {
@@ -419,84 +384,4 @@ main section > h2 {
   border: 1px solid #cbd5e1;
   border-radius: 5px;
   font-size: 12px;
-}
-
-/* -------------------------- */
-
-@media (max-width: 1000px) {
-  .cabecalho {
-    flex-wrap: wrap;
-  }
-  
-  .menu {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .lista-titulos {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .rodape {
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 700px) {
-  .cabecalho {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cabecalho .menu {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
-  .cabecalho .menu a {
-    width: 100%;
-    text-align: center;
-  }
-
-  .menu {
-    flex-wrap: wrap;
-  }
-
-  .destaque {
-    min-height: 350px;
-  }
-
-  .destaque > img {
-    height: 350px;
-  }
-
-  .texto-destaque h2 {
-    font-size: 28px;
-    white-space: normal;
-    text-align: center;
-  }
-
-  .sobre, .contato {
-    flex-direction: column;
-  }
-
-  .lista-titulos {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .campos {
-    flex-direction: column;
-  }
-
-  .rodape {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .menu-rodape, .redes-sociais {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }

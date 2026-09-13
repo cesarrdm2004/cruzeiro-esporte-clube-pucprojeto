@@ -9,7 +9,7 @@
 </head>
 <body>
   
-  <header class="cabecalho">
+  <header class="cabecalho d-flex flex-column flex-lg-row flex-wrap align-items-center justify-content-between gap-3">
     <div class="logo">
       <img src="images/escudo-cruzeiro.png" alt="Logo do Cruzeiro">
       <div>
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <nav class="menu">
+    <nav class="menu d-flex flex-wrap justify-content-center">
       <a href="#inicio">Início</a>
       <a href="#historia">História</a>
       <a href="#elenco">Elenco</a>
@@ -26,7 +26,7 @@
       <a href="#contato">Contato</a>
     </nav>
 
-    <form class="pesquisa">
+    <form class="pesquisa d-flex">
       <input type="search" placeholder="Pesquisar">
       <button type="submit">Buscar</button>
     </form>
@@ -74,17 +74,19 @@
     </section>
 
     <section id="historia" class="sobre">
-      <article class="texto-sobre">
+      <div class="row align-items-center g-5">
+      <article class="texto-sobre col-12 col-lg-6">
         <h2>Sobre o Clube</h2>
         <p>O Cruzeiro Esporte Clube é...</p>
 
         <a href="#" class="botao">Saiba mais</a>
       </article>
 
-      <article class="imagem-sobre">
+      <article class="imagem-sobre col-12 col-lg-6">
         <img src="https://picsum.photos/id/1040/600/350" alt="Imagem representando o estádio e a torcida">
         <p>Imagem do estádio / torcida</p>
       </article>
+      </div>
     </section>
 
     <section id="elenco" class="elenco">
@@ -124,28 +126,28 @@
 
     <section id="titulos" class="titulos">
       <h2>Principais Títulos</h2>
-      <div class="lista-titulos">
-        <article class="titulo">
+      <div class="lista-titulos row g-3">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando a Libertadores">
           <h3>Libertadores</h3>
         </article>
-        <article class="titulo">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando a Supercopa Libertadores">
           <h3>Supercopa Libertadores</h3>
         </article>
-        <article class="titulo">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando o Campeonato Brasileiro">
           <h3>Campeonato Brasileiro</h3>
         </article>
-        <article class="titulo">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando a Copa do Brasil">
           <h3>Copa do Brasil</h3>
         </article>
-        <article class="titulo">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando a Recopa Sul-Americana">
           <h3>Recopa Sul-Americana</h3>
         </article>
-        <article class="titulo">
+        <article class="titulo col-12 col-sm-6 col-lg-2">
           <img src="https://picsum.photos/id/1060/150/100" alt="Imagem representando a Copa Ouro">
           <h3>Copa Ouro</h3>
         </article>
@@ -153,7 +155,8 @@
     </section>
 
     <section id="contato" class="contato">
-      <article class="texto-contato">
+      <div class="row g-5">
+      <article class="texto-contato col-12 col-lg-4">
         <h2>Entre em contato</h2>
         <p>
           Tem alguma sugestão, dúvida ou quer falar conosco?
@@ -161,26 +164,31 @@
         </p>
       </article>
 
-      <form class="formulario-contato">
-        <div class="campos">
+      <form class="formulario-contato col-12 col-lg-8">
+        <div class="campos row g-3">
+          <div class="col-12 col-md-6">
           <input type="text" name="nome" placeholder="Nome completo" required>
+          </div>
+          <div class="col-12 col-md-6">
           <input type="email" name="email" placeholder="E-mail" required>
+          </div>
         </div>
 
         <textarea name="mensagem" placeholder="Mensagem" rows="5"></textarea>
 
         <button type="submit">Enviar mensagem</button>
       </form>
+      </div>
     </section>
   </main>
 
-  <footer class="rodape">
+  <footer class="rodape d-flex flex-column flex-lg-row align-items-center justify-content-between flex-wrap gap-4">
     <div>
       <h2>Cruzeiro Esporte Clube</h2>
       <p>Gigante pela própria natureza</p>
     </div>
 
-    <nav class="menu-rodape">
+    <nav class="menu-rodape d-flex flex-wrap justify-content-center">
       <a href="#inicio">Início</a>
       <a href="#historia">História</a>
       <a href="#elenco">Elenco</a>
@@ -188,7 +196,7 @@
       <a href="#contato">Contato</a>
     </nav>
 
-    <div class="redes-sociais">
+    <div class="redes-sociais d-flex flex-wrap justify-content-center">
       <a href="#">Instagram</a>
       <a href="#">X</a>
       <a href="#">Facebook</a>
